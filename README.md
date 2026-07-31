@@ -12,7 +12,7 @@ This repository contains test documentation, including Test Scenarios and Test C
 
 ---
 
-## 📋 Test Cases (Jira / Zephyr Format)
+## Test Cases (Jira / Zephyr Format)
 
 Below are examples of manual test cases documenting core WMS business logic.
 
