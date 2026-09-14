@@ -47,7 +47,7 @@ Below are examples of manual test cases documenting core WMS business logic.
 
 ---
 
-### 🔴 TC-003: Attempt to access Inventory Management without permissions (Security/Negative)
+### TC-003: Attempt to access Inventory Management without permissions (Security/Negative)
 
 **Preconditions:**
 1. User is logged in as a `Standard Picker` (does not have Manager rights).
@@ -58,7 +58,7 @@ Below are examples of manual test cases documenting core WMS business logic.
 
 ---
 
-### 🔴 TC-004: Enter non-existent SKU during Inbound Receiving (Negative)
+### TC-004: Enter non-existent SKU during Inbound Receiving (Negative)
 
 **Preconditions:**
 1. User is logged in as `Warehouse Manager`.
@@ -71,7 +71,7 @@ Below are examples of manual test cases documenting core WMS business logic.
 
 ---
 
-### 🔴 TC-005: Enter a negative quantity during order dispatch (Negative / Boundary Value)
+### TC-005: Enter a negative quantity during order dispatch (Negative / Boundary Value)
 
 **Preconditions:**
 1. User is logged in as `Fulfillment Specialist`.
@@ -84,7 +84,7 @@ Below are examples of manual test cases documenting core WMS business logic.
 
 ---
 
-### 🟢 TC-006: Successfully transfer stock to a different warehouse zone (Positive)
+### TC-006: Successfully transfer stock to a different warehouse zone (Positive)
 
 **Preconditions:**
 1. User is logged in as `Warehouse Manager`.
